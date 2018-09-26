@@ -15,27 +15,31 @@ iframe{
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	display: none;
+	/*display: none;*/
 }
 </style>
 <script type="text/javascript">
 var flug = sessionStorage['flug'];
 var filename = sessionStorage['filename'];
 console.log(filename);
+var sr = $(".iframe").attr("id");
+    console.log(sr);
 if(filename=='early'){
-    $("#early").css("display","block");
+    // $("#early").css('displore','block');
+    var sr = $("iframe").attr("src");
+    console.log(sr);
 }else if(filename=='editor'){
-	$("#editor").css("display","block");
+	// $("#editor").css("display","block");
 }else if(filename=='report'){
-	$("#report").css("display","block");
+	// $("#report").css("display","block");
 }
 if(flug!=1){
 	window.location.href="index.html";
 }
 </script>
 <body>
-	<iframe id="early" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe>
-	<iframe id="editor" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe>
-	<iframe id="report" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe>
+	<iframe class="iframe" id="early" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe>
+	<!-- <iframe id="editor" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe>
+	<iframe id="report" src="PDFjs/web/viewer.html?file=a.pdf" frameborder="0"></iframe> -->
 </body>
 </html>
