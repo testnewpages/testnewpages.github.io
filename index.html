@@ -42,9 +42,13 @@
 
       <!-- <h1 class="project-tagline" style="font-size:15px; text-align: center; color:black;"><strong>以上群规则请大家遵守，如有疑问和运维沟通，谢谢！</strong></h1>  -->
         <h2 class="project-tagline">点击以下按钮打开对应的研报</h2>
-        <button class="bton"><a href="paper.html" onclick="paper('early');">早知道</a></button>
-        <button class="bton"><a href="paper.html" onclick="paper('editor');">主编精选</a></button>
-        <button class="bton"><a href="paper.html" onclick="paper('report');">脱水研报</a></button>
+        <button class="bton"><a href="early.html">早知道</a></button>
+        <button class="bton"><a href="stock.html">脱水个股</a></button>
+        <button class="bton"><a href="report.html">脱水研报</a></button><br>
+        <button class="bton"><a href="editor1.html">主编精选1</a></button>
+        <button class="bton"><a href="editor2.html">主编精选2</a></button>
+        <button class="bton"><a href="editor3.html">主编精选3</a></button>
+
 
       <footer class="site-footer">
         <span class="site-footer-owner">【Displore】</span>
@@ -53,9 +57,10 @@
     </section>
   </body>
   <script type="text/javascript">
-    function paper(obj){
-    	sessionStorage['flug'] = 1;
-    	sessionStorage['filename'] = obj;
-    }
+    sessionStorage['flug'] = 1;
+    // function paper(obj){
+    	// sessionStorage['flug'] = 1;
+    	// sessionStorage['filename'] = obj;
+    // }
   </script>
 </html>
