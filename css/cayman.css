@@ -15,6 +15,26 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.bton{
+  background-color: #10717b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+}
+.bton a{
+  color: white;
+}
+.bton a:hover{
+  color: white;
+  text-decoration: none;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
