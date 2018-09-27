@@ -5,7 +5,7 @@ Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com)
 You can preview the theme at http://jasonlong.github.io/cayman-theme or with real content at http://jasonlong.github.io/geo_pattern.
 
 ![](http://cl.ly/image/1T3r3d18311V/content)
-    
+        
 # Customizations
 
 If you copy this theme for your own needs, feel free to customize the colors however you like. A couple of nice sources for gradient colors are http://uigradients.com and http://jxnblk.com/shade/.
